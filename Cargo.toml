@@ -1,0 +1,30 @@
+[package]
+name = "gtktree"
+version = "0.1.0"
+authors = ["NeedPainkillers <46500324+NeedPainkillers@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+regex = ""
+serde = { version = "1.0.101", features = ["derive"] }
+serde_json = "1.0.40"
+
+[dependencies.redis]
+version = "*"
+
+[dependencies.gdk-pixbuf]
+version = "*"
+
+[dependencies.gtk]
+version = "0.8.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
+
+[dependencies.glib]
+version = ""
+features = ["v2_44"]

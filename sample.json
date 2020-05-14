@@ -1,0 +1,24 @@
+[
+  {
+    "value": "value1",
+    "node": [
+      {
+        "value": "child1",
+        "node": [
+          {
+            "value": "grandchild1",
+            "node": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "value": "value2",
+    "node": []
+  },
+  {
+    "value": "value3",
+    "node": []
+  }
+]
